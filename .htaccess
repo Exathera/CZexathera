@@ -1,5 +1,5 @@
-<IfModule mod_rewrite.c>
+#<IfModule mod_rewrite.c>
 	RewriteEngine On
 	RewriteEngine on 
 	RewriteRule ^(.*)$ http://www.exathera.io/$1 [R=301,L]
-</IfModule>
+#</IfModule>
