@@ -1,4 +1,5 @@
 <IfModule mod_rewrite.c>
+	RewriteLog rewrite.log
 	RewriteEngine On
 	RewriteRule / exathera.io [R]
 </IfModule>
