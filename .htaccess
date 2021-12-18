@@ -1,2 +1,4 @@
-RewriteEngine On
-RewriteRule / exathera.io [R]
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule / exathera.io [R]
+</IfModule>
