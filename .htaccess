@@ -1,1 +1,1 @@
-RewriteRule exathera.cz exathera.io [R]
+RewriteRule index\.html exathera.io [R]
